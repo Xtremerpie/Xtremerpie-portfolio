@@ -3,17 +3,17 @@ export default function Portfolio() {
     {
       title: 'Minecraft Clone',
       desc: '3D open-world game built with Ursina Engine.',
-      link: 'https://github.com/',
+      link: 'https://github.com/Xtremerpie',
     },
     {
       title: 'AI Assistant',
       desc: 'Voice-controlled AI assistant for mobile devices.',
-      link: 'https://github.com/',
+      link: 'https://github.com/Xtremerpie',
     },
     {
       title: 'Automation Bot',
       desc: 'Discord + workflow automation project.',
-      link: 'https://github.com/',
+      link: 'https://github.com/Xtremerpie',
     },
   ];
 
@@ -33,7 +33,7 @@ export default function Portfolio() {
 
         <div className="flex gap-4">
           <a
-            href="https://github.com/"
+            href="https://github.com/Xtremerpie"
             target="_blank"
             className="px-4 py-2 rounded-xl bg-white/10 hover:bg-cyan-400 hover:text-black transition-all duration-300"
           >
@@ -41,7 +41,7 @@ export default function Portfolio() {
           </a>
 
           <a
-            href="https://discord.com/"
+            href="https://discord.gg/hAQC2MyrUs"
             target="_blank"
             className="px-4 py-2 rounded-xl bg-white/10 hover:bg-cyan-400 hover:text-black transition-all duration-300"
           >
@@ -49,11 +49,11 @@ export default function Portfolio() {
           </a>
 
           <a
-            href="https://youtube.com/"
+            href="https://x.com/Xtremerpie"
             target="_blank"
             className="px-4 py-2 rounded-xl bg-white/10 hover:bg-cyan-400 hover:text-black transition-all duration-300"
           >
-            YouTube
+            X
           </a>
         </div>
       </nav>
@@ -81,17 +81,17 @@ export default function Portfolio() {
 
         <div className="mt-10 flex flex-wrap justify-center gap-5">
           <a
-            href="https://github.com/"
+            href="https://github.com/Xtremerpie"
             className="px-8 py-4 rounded-2xl bg-cyan-400 text-black font-bold hover:scale-110 transition-all duration-300 shadow-[0_0_40px_rgba(34,211,238,0.6)]"
           >
             Explore Projects
           </a>
 
           <a
-            href="https://youtube.com/"
+            href="https://x.com/Xtremerpie"
             className="px-8 py-4 rounded-2xl border border-white/20 bg-white/5 hover:bg-white/10 hover:scale-110 transition-all duration-300"
           >
-            Watch Content
+            Update Soon
           </a>
         </div>
       </section>
