@@ -63,7 +63,7 @@ export default function Portfolio() {
         <div className="mb-6">
           <div className="w-36 h-36 rounded-full border-4 border-cyan-400 overflow-hidden shadow-[0_0_60px_rgba(34,211,238,0.7)] mx-auto animate-bounce">
             <img
-              src="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
+              src="https://i.pinimg.com/736x/33/03/8d/33038d322729ce7d9a7cdaef33f85390.jpg"
               alt="profile"
               className="w-full h-full object-cover"
             />
