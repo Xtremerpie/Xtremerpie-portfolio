@@ -1,8 +1,8 @@
 export default function Portfolio() {
   const projects = [
     {
-      title: 'Minecraft Clone',
-      desc: '3D open-world game built with Ursina Engine.',
+      title: 'PC Maneger',
+      desc: 'Give full information about you PC with control inside app.',
       link: 'https://github.com/Xtremerpie',
     },
     {
