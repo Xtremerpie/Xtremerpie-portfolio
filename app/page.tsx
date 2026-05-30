@@ -41,7 +41,7 @@ export default function Portfolio() {
           </a>
 
           <a
-            href="https://discord.gg/hAQC2MyrUs"
+            href="https://discord.com/invite/HVkaVjC3xA"
             target="_blank"
             className="px-4 py-2 rounded-xl bg-white/10 hover:bg-cyan-400 hover:text-black transition-all duration-300"
           >
