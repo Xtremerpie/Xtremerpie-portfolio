@@ -11,7 +11,7 @@ export default function Portfolio() {
       link: 'https://github.com/Xtremerpie',
     },
     {
-      title: 'Automation Bot',
+      title: 'Discord Bot Called Xyth',
       desc: 'Discord + workflow automation project.',
       link: 'https://github.com/Xtremerpie',
     },
