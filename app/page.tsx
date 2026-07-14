@@ -33,7 +33,7 @@ export default function Portfolio() {
       {/* Navbar */}
       <nav className="relative z-10 flex justify-between items-center px-8 py-6 backdrop-blur-md bg-white/5 border-b border-white/10">
         <h1 className="text-2xl font-bold tracking-wide text-cyan-400">
-          Xtremerpie
+          XTREMERPIE
         </h1>
 
         <div className="flex gap-4">
