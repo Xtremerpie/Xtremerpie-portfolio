@@ -1,18 +1,23 @@
 export default function Portfolio() {
   const projects = [
     {
-      title: 'PC Maneger',
-      desc: 'Give full information about you PC with control inside app.',
+      title: '🤖 Rafail AI',
+      desc: 'Desktop AI assistant with multiple models and voice support.',
       link: 'https://github.com/Xtremerpie',
     },
     {
-      title: 'AI Assistant',
-      desc: 'Voice-controlled AI assistant for mobile devices.',
+      title: '🛡️ Xyth Bot',
+      desc: 'Discord bot with moderation and AI features.',
       link: 'https://github.com/Xtremerpie',
     },
     {
-      title: 'Discord Bot Called Xyth',
-      desc: 'Discord + workflow automation project.',
+      title: '⛏️ Hexorpie',
+      desc: 'Minecraft automation and assistant bot.',
+      link: 'https://github.com/Xtremerpie',
+    },
+     {
+      title: '🎮 XYTHERIA',
+      desc: '3D game project with exploration and survival mechanics.',
       link: 'https://github.com/Xtremerpie',
     },
   ];
