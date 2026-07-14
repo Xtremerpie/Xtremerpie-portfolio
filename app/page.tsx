@@ -20,6 +20,11 @@ export default function Portfolio() {
       desc: '3D game project with exploration and survival mechanics.',
       link: 'https://github.com/Xtremerpie',
     },
+    {
+      title: '📊 MANAPIE',
+      desc: 'Personal destop app to manage all activity in one.',
+      link: 'https://github.com/Xtremerpie',
+    },
   ];
 
   return (
