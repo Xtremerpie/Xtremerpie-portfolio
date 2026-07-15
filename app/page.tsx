@@ -107,25 +107,114 @@ export default function Portfolio() {
       </section>
 
       {/* About */}
-      <section className="relative z-10 px-8 py-24 max-w-6xl mx-auto">
-        <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl p-10 shadow-2xl hover:scale-[1.01] transition-all duration-500">
-          <h3 className="text-4xl font-bold text-cyan-400 mb-6">About Me</h3>
+<section className="relative z-10 px-8 py-32 max-w-7xl mx-auto">
+  <div className="relative overflow-hidden rounded-[40px] border border-cyan-400/20 bg-black/40 backdrop-blur-2xl p-12 shadow-[0_0_80px_rgba(34,211,238,0.15)]">
 
-          <p className="text-gray-300 leading-8 text-lg">
-  Hey 👋 I'm Xtremerpie — a student developer, AI builder, and creator who loves turning ideas into real projects.
+    {/* Glow Effects */}
+    <div className="absolute -top-24 -left-24 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl"></div>
+    <div className="absolute -bottom-24 -right-24 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl"></div>
 
-  My journey started with curiosity about how games, websites, and intelligent systems work, and that curiosity quickly turned into a passion for building my own technology. Today, I spend my time creating AI assistants, Discord bots, automation tools, games, and experimental projects that combine creativity with code.
+    {/* Header */}
+    <div className="relative z-10 flex items-center gap-6 mb-10">
+      <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-4xl shadow-[0_0_40px_rgba(34,211,238,0.6)]">
+        👨‍💻
+      </div>
 
-  I enjoy working on futuristic concepts and exploring what technology can become in the future. Some of my projects include Rafail AI, an intelligent assistant platform, Xyth Bot for Discord communities, Hexorpie for Minecraft automation, XYTHERIA game development experiments, and MANAPIE, a productivity desktop application.
+      <div>
+        <p className="text-cyan-400 tracking-[0.4em] text-sm">
+          SYSTEM PROFILE
+        </p>
 
-  Beyond coding, I love learning new technologies, solving problems, and challenging myself with ambitious ideas that push my skills further. My goal is not only to build software but to create experiences that feel innovative, useful, and exciting.
+        <h3 className="text-5xl font-extrabold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
+          ABOUT XTREMERPIE
+        </h3>
+      </div>
+    </div>
 
-  I believe that age does not limit creativity or the ability to build something meaningful. Every project I create is another step toward becoming a better developer, engineer, and creator of future technology.
+    {/* Stats Panel */}
+    <div className="grid md:grid-cols-4 gap-6 mb-10">
+      <div className="rounded-2xl bg-white/5 border border-white/10 p-5 text-center">
+        <h4 className="text-3xl font-bold text-cyan-400">5+</h4>
+        <p className="text-gray-400">Major Projects</p>
+      </div>
 
-  This portfolio is a collection of that journey — the projects, experiments, and ideas that represent who I am and what I want to build next.
-</p>
-        </div>
-      </section>
+      <div className="rounded-2xl bg-white/5 border border-white/10 p-5 text-center">
+        <h4 className="text-3xl font-bold text-cyan-400">AI</h4>
+        <p className="text-gray-400">Focused Builder</p>
+      </div>
+
+      <div className="rounded-2xl bg-white/5 border border-white/10 p-5 text-center">
+        <h4 className="text-3xl font-bold text-cyan-400">Game Dev</h4>
+        <p className="text-gray-400">Explorer</p>
+      </div>
+
+      <div className="rounded-2xl bg-white/5 border border-white/10 p-5 text-center">
+        <h4 className="text-3xl font-bold text-cyan-400">∞</h4>
+        <p className="text-gray-400">Ideas Loading...</p>
+      </div>
+    </div>
+
+    {/* Main Content */}
+    <div className="relative z-10 space-y-6 text-gray-300 text-lg leading-9">
+      <p>
+        <span className="text-cyan-400 font-bold">
+          &gt; Initializing profile...
+        </span>
+      </p>
+
+      <p>
+        Hey 👋 I'm <span className="text-cyan-400 font-semibold">Xtremerpie</span>,
+        a student developer, AI builder and creator who enjoys turning ideas
+        into software and experiments into reality.
+      </p>
+
+      <p>
+        My journey began with curiosity about games, websites and intelligent
+        systems, eventually evolving into a passion for building my own
+        technology. Today I create AI assistants, Discord bots, automation
+        tools, desktop applications and game projects.
+      </p>
+
+      <p>
+        Some of my projects include
+        <span className="text-cyan-400"> Rafail AI</span>,
+        <span className="text-cyan-400"> Xyth Bot</span>,
+        <span className="text-cyan-400"> Hexorpie</span>,
+        <span className="text-cyan-400"> XYTHERIA</span> and
+        <span className="text-cyan-400"> MANAPIE</span>.
+      </p>
+
+      <p>
+        I enjoy exploring futuristic concepts and experimenting with ideas
+        involving AI, automation, gaming and next-generation interfaces.
+      </p>
+
+      <p className="text-xl font-semibold text-white border-l-4 border-cyan-400 pl-6">
+        "Programming isn't just writing code — it's building the technology
+        that you wish existed tomorrow."
+      </p>
+    </div>
+
+    {/* Bottom Status Bar */}
+    <div className="mt-12 flex flex-wrap gap-4">
+      <span className="px-4 py-2 rounded-full bg-cyan-400/10 border border-cyan-400/20 text-cyan-400">
+        AI Systems
+      </span>
+
+      <span className="px-4 py-2 rounded-full bg-cyan-400/10 border border-cyan-400/20 text-cyan-400">
+        Automation
+      </span>
+
+      <span className="px-4 py-2 rounded-full bg-cyan-400/10 border border-cyan-400/20 text-cyan-400">
+        Game Development
+      </span>
+
+      <span className="px-4 py-2 rounded-full bg-cyan-400/10 border border-cyan-400/20 text-cyan-400">
+        Future Technology
+      </span>
+    </div>
+  </div>
+</section>
 
       {/* Projects */}
       <section className="relative z-10 px-8 pb-32 max-w-7xl mx-auto">
