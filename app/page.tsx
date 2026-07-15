@@ -47,7 +47,7 @@ export default function Portfolio() {
             target="_blank"
             className="px-4 py-2 rounded-xl bg-white/10 hover:bg-cyan-400 hover:text-black transition-all duration-300"
           >
-            GitHub
+            🐙 GitHub
           </a>
 
           <a
@@ -55,7 +55,7 @@ export default function Portfolio() {
             target="_blank"
             className="px-4 py-2 rounded-xl bg-white/10 hover:bg-cyan-400 hover:text-black transition-all duration-300"
           >
-            Discord
+            🎮 Discord
           </a>
 
           <a
@@ -63,7 +63,7 @@ export default function Portfolio() {
             target="_blank"
             className="px-4 py-2 rounded-xl bg-white/10 hover:bg-cyan-400 hover:text-black transition-all duration-300"
           >
-            X
+            ✖️ X
           </a>
         </div>
       </nav>
