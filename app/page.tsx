@@ -84,19 +84,10 @@ export default function Portfolio() {
           FUTURE BUILDER
         </h2>
 
-        <p className="text-gray-300 leading-8 text-lg">
-  Hey 👋 I'm Xtremerpie — a student developer, AI builder, and creator who loves turning ideas into real projects.
-
-  My journey started with curiosity about how games, websites, and intelligent systems work, and that curiosity quickly turned into a passion for building my own technology. Today, I spend my time creating AI assistants, Discord bots, automation tools, games, and experimental projects that combine creativity with code.
-
-  I enjoy working on futuristic concepts and exploring what technology can become in the future. Some of my projects include Rafail AI, an intelligent assistant platform, Xyth Bot for Discord communities, Hexorpie for Minecraft automation, XYTHERIA game development experiments, and MANAPIE, a productivity desktop application.
-
-  Beyond coding, I love learning new technologies, solving problems, and challenging myself with ambitious ideas that push my skills further. My goal is not only to build software but to create experiences that feel innovative, useful, and exciting.
-
-  I believe that age does not limit creativity or the ability to build something meaningful. Every project I create is another step toward becoming a better developer, engineer, and creator of future technology.
-
-  This portfolio is a collection of that journey — the projects, experiments, and ideas that represent who I am and what I want to build next.
-      </p>
+            <p className="mt-6 max-w-2xl text-gray-300 text-lg md:text-xl leading-relaxed"> 
+              I build AI systems, games, automation tools and futuristic projects. 
+              Passionate about coding, innovation and creating insane experiences. 
+           </p>
 
         <div className="mt-10 flex flex-wrap justify-center gap-5">
           <a
