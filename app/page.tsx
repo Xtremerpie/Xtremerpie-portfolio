@@ -25,6 +25,11 @@ export default function Portfolio() {
       desc: 'Personal destop app to manage all activity in one.',
       link: 'https://github.com/Xtremerpie',
     },
+    {
+      title: '👾 AIZEL',
+      desc: 'Personal AI like JARVIS to control all your works with voice controlling and extra features',
+      link: 'https://github.com/Xtremerpie',
+    },
   ];
 
   return (
