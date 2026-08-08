@@ -30,6 +30,11 @@ export default function Portfolio() {
       desc: 'Personal AI like JARVIS to control all your works with voice controlling and extra features',
       link: 'https://github.com/Xtremerpie',
     },
+    {
+      title: 'Creation links',
+      link: 'https://turbodrift-gold.vercel.app/',
+      link: 'https://hillclimb-rose.vercel.app/',
+    },
   ];
 
   return (
