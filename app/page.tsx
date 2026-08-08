@@ -32,7 +32,7 @@ export default function Portfolio() {
     },
     {
       title: 'Creation links',
-      link: 'https://turbodrift-gold.vercel.app/',
+      desc: 'Personal AI like JARVIS to control all your works with voice controlling and extra features',
       link: 'https://hillclimb-rose.vercel.app/',
     },
   ];
