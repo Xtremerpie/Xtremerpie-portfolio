@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 export default function Portfolio() {
@@ -68,7 +70,7 @@ export default function Portfolio() {
   const [cursor, setCursor] = React.useState({ x: -100, y: -100 });
 
   React.useEffect(() => {
-    const moveCursor = (event) => {
+    const moveCursor = (event: PointerEvent) => {
       setCursor({ x: event.clientX, y: event.clientY });
     };
 
@@ -91,7 +93,6 @@ export default function Portfolio() {
         style={{ left: cursor.x - 20, top: cursor.y - 20 }}
       />
 
-      <div className="min-h-screen bg-black text-white overflow-hidden relative">
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute w-[700px] h-[700px] bg-cyan-500/20 rounded-full blur-3xl top-[-200px] left-[-200px] animate-pulse"></div>
