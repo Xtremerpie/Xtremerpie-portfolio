@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Portfolio() {
   const projects = [
     {
@@ -15,36 +17,89 @@ export default function Portfolio() {
       desc: 'Minecraft automation and assistant bot.',
       link: 'https://github.com/Xtremerpie',
     },
-     {
+    {
       title: '🎮 XYTHERIA',
       desc: '3D game project with exploration and survival mechanics.',
       link: 'https://github.com/Xtremerpie',
     },
     {
       title: '📊 MANAPIE',
-      desc: 'Personal destop app to manage all activity in one.',
+      desc: 'Personal desktop app to manage all activity in one.',
       link: 'https://github.com/Xtremerpie',
     },
     {
       title: '👾 AIZEL',
-      desc: 'Personal AI like JARVIS to control all your works with voice controlling and extra features',
+      desc: 'Personal AI like JARVIS to control all your works with voice controlling and extra features.',
       link: 'https://github.com/Xtremerpie',
-    },
-    {
-      title: 'Creation links',
-      desc: 'Personal AI like JARVIS to control all your works with voice controlling and extra features',
-      link: 'https://hillclimb-rose.vercel.app/',
     },
   ];
 
+  const gameLinks = [
+    {
+      name: 'Hill Climb',
+      url: 'https://hillclimb-rose.vercel.app/',
+      icon: '🏔️',
+    },
+    {
+      name: 'Turbo Drift',
+      url: 'https://turbodrift-gold.vercel.app/',
+      icon: '🏎️',
+    },
+  ];
+
+  const appLinks = [
+    {
+      name: 'Daily Commander',
+      url: 'https://daily-commander.vercel.app/',
+      icon: '🧭',
+    },
+    {
+      name: 'FocusHeist',
+      url: 'https://focusheist-app.vercel.app/',
+      icon: '🎯',
+    },
+    {
+      name: 'ClassBoard',
+      url: 'https://classboard-vert.vercel.app/',
+      icon: '📚',
+    },
+  ];
+
+  const [cursor, setCursor] = React.useState({ x: -100, y: -100 });
+
+  React.useEffect(() => {
+    const moveCursor = (event) => {
+      setCursor({ x: event.clientX, y: event.clientY });
+    };
+
+    window.addEventListener('pointermove', moveCursor);
+    return () => window.removeEventListener('pointermove', moveCursor);
+  }, []);
+
   return (
-    <div className="min-h-screen bg-black text-white overflow-hidden relative">
+    <div
+      className="min-h-screen bg-black text-white overflow-hidden relative selection:bg-cyan-400 selection:text-black"
+      style={{ cursor: 'none' }}
+    >
+      {/* Custom cursor */}
+      <div
+        className="pointer-events-none fixed z-[100] w-4 h-4 rounded-full bg-cyan-300 shadow-[0_0_25px_rgba(34,211,238,0.95)] transition-transform duration-75"
+        style={{ left: cursor.x - 8, top: cursor.y - 8 }}
+      />
+      <div
+        className="pointer-events-none fixed z-[99] w-10 h-10 rounded-full border border-cyan-400/50 transition-all duration-150"
+        style={{ left: cursor.x - 20, top: cursor.y - 20 }}
+      />
+
+      <div className="min-h-screen bg-black text-white overflow-hidden relative">
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute w-[700px] h-[700px] bg-cyan-500/20 rounded-full blur-3xl top-[-200px] left-[-200px] animate-pulse"></div>
         <div className="absolute w-[600px] h-[600px] bg-purple-500/20 rounded-full blur-3xl bottom-[-200px] right-[-200px] animate-pulse"></div>
       </div>
 
+       
+      
       {/* Navbar */}
       <nav className="relative z-10 flex justify-between items-center px-8 py-6 backdrop-blur-md bg-white/5 border-b border-white/10">
         <h1 className="text-2xl font-bold tracking-wide text-cyan-400">
@@ -259,6 +314,97 @@ export default function Portfolio() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Footer */}
+      {/* Live Creation Links */}
+      <section className="relative z-10 px-8 pb-32 max-w-7xl mx-auto">
+        <div className="relative overflow-hidden rounded-[40px] border border-cyan-400/20 bg-white/[0.03] backdrop-blur-2xl p-8 md:p-12 shadow-[0_0_80px_rgba(34,211,238,0.08)]">
+          <div className="absolute -top-32 right-0 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl" />
+          <div className="absolute -bottom-32 left-0 h-64 w-64 rounded-full bg-purple-500/10 blur-3xl" />
+
+          <div className="relative z-10 mb-10">
+            <p className="text-cyan-400 text-sm font-semibold tracking-[0.35em] uppercase">
+              Live Builds
+            </p>
+            <h3 className="mt-3 text-4xl md:text-5xl font-extrabold text-white">
+              Creation Links
+            </h3>
+            <p className="mt-4 max-w-2xl text-gray-400 text-lg">
+              Play the games and explore the apps I have built and deployed on the web.
+            </p>
+          </div>
+
+          <div className="relative z-10 grid lg:grid-cols-2 gap-8">
+            {/* Games */}
+            <div className="rounded-3xl border border-white/10 bg-black/30 p-6 hover:border-cyan-400/30 transition-all duration-300">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="h-12 w-12 rounded-2xl bg-cyan-400/10 border border-cyan-400/20 flex items-center justify-center text-2xl">
+                  🎮
+                </div>
+                <div>
+                  <p className="text-xs tracking-[0.25em] text-cyan-400 uppercase">Interactive</p>
+                  <h4 className="text-2xl font-bold">Game Creation</h4>
+                </div>
+              </div>
+
+              <div className="space-y-3">
+                {gameLinks.map((game, index) => (
+                  <a
+                    key={game.url}
+                    href={game.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="group flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.04] px-5 py-4 hover:bg-cyan-400 hover:text-black hover:border-cyan-300 transition-all duration-300"
+                  >
+                    <span className="flex items-center gap-4">
+                      <span className="text-xl">{game.icon}</span>
+                      <span>
+                        <span className="block text-xs opacity-50 font-mono">0{index + 1}</span>
+                        <span className="font-semibold">{game.name}</span>
+                      </span>
+                    </span>
+                    <span className="text-lg transition-transform duration-300 group-hover:translate-x-1">↗</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            {/* Apps */}
+            <div className="rounded-3xl border border-white/10 bg-black/30 p-6 hover:border-purple-400/30 transition-all duration-300">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="h-12 w-12 rounded-2xl bg-purple-400/10 border border-purple-400/20 flex items-center justify-center text-2xl">
+                  ⚡
+                </div>
+                <div>
+                  <p className="text-xs tracking-[0.25em] text-purple-400 uppercase">Web Applications</p>
+                  <h4 className="text-2xl font-bold">App Creation</h4>
+                </div>
+              </div>
+
+              <div className="space-y-3">
+                {appLinks.map((app, index) => (
+                  <a
+                    key={app.url}
+                    href={app.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="group flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.04] px-5 py-4 hover:bg-purple-400 hover:text-black hover:border-purple-300 transition-all duration-300"
+                  >
+                    <span className="flex items-center gap-4">
+                      <span className="text-xl">{app.icon}</span>
+                      <span>
+                        <span className="block text-xs opacity-50 font-mono">0{index + 1}</span>
+                        <span className="font-semibold">{app.name}</span>
+                      </span>
+                    </span>
+                    <span className="text-lg transition-transform duration-300 group-hover:translate-x-1">↗</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
