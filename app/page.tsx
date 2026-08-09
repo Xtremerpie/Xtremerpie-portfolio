@@ -47,6 +47,10 @@ export default function Portfolio() {
       url: 'https://turbodrift-gold.vercel.app/',
       icon: '🏎️',
     },
+    name: 'WildMoor',
+      url: 'https://survival-game-alpha.vercel.app/',
+      icon: '⚔️',
+    },
   ];
 
   const appLinks = [
