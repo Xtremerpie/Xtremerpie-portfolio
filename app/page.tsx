@@ -38,6 +38,16 @@ export default function Portfolio() {
 
   const gameLinks = [
     {
+    name: 'Tamers Frontier V0.1',
+      url: 'https://tamers-frontier-game.vercel.app/',
+      icon: '👾',
+    },
+    {
+    name: 'WildMoor',
+      url: 'https://survival-game-alpha.vercel.app/',
+      icon: '⚔️',
+    },
+    {
       name: 'Hill Climb',
       url: 'https://hillclimb-rose.vercel.app/',
       icon: '🏔️',
@@ -46,11 +56,6 @@ export default function Portfolio() {
       name: 'Turbo Drift',
       url: 'https://turbodrift-gold.vercel.app/',
       icon: '🏎️',
-    },
-    {
-    name: 'WildMoor',
-      url: 'https://survival-game-alpha.vercel.app/',
-      icon: '⚔️',
     },
   ];
 
