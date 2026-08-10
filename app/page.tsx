@@ -67,7 +67,7 @@ export default function Portfolio() {
     },
     {
       name: 'FocusHeist',
-      url: 'https://focusheist-app.vercel.app/',
+      url: 'https://focusheist.netlify.app/',
       icon: '🎯',
     },
     {
