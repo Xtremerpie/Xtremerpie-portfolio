@@ -7,32 +7,32 @@ export default function Portfolio() {
     {
       title: '🤖 Rafail AI',
       desc: 'Desktop AI assistant with multiple models and voice support.',
-      link: 'https://github.com/Xtremerpie',
+      link: 'https://github.com/Xtremerpie/Rafail-AI',
     },
     {
       title: '🛡️ Xyth Bot',
       desc: 'Discord bot with moderation and AI features.',
-      link: 'https://github.com/Xtremerpie',
+      link: 'https://github.com/Xtremerpie/Xyth',
     },
     {
       title: '⛏️ Hexorpie',
       desc: 'Minecraft automation and assistant bot.',
-      link: 'https://github.com/Xtremerpie',
+      link: 'https://github.com/Xtremerpie/Hexorpie',
     },
     {
       title: '🎮 XYTHERIA',
       desc: '3D game project with exploration and survival mechanics.',
-      link: 'https://github.com/Xtremerpie',
+      link: 'https://github.com/Xtremerpie/ECLIPSE',
     },
     {
       title: '📊 MANAPIE',
       desc: 'Personal desktop app to manage all activity in one.',
-      link: 'https://github.com/Xtremerpie',
+      link: 'https://github.com/Xtremerpie/Manapie',
     },
     {
       title: '👾 AIZEL',
       desc: 'Personal AI like JARVIS to control all your works with voice controlling and extra features.',
-      link: 'https://github.com/Xtremerpie',
+      link: 'https://github.com/Xtremerpie/AIZEL',
     },
   ];
 
