@@ -157,7 +157,7 @@ export default function Portfolio() {
         </div>
 
         <h2 className="text-6xl md:text-7xl font-extrabold leading-tight bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 text-transparent bg-clip-text animate-pulse">
-          FUTURE BUILDER
+          PAST BUILDER
         </h2>
 
             <p className="mt-6 max-w-2xl text-gray-300 text-lg md:text-xl leading-relaxed"> 
